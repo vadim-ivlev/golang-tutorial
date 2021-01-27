@@ -30,11 +30,13 @@ func main() {
 		secondName: "ivlev",
 	}
 	fmt.Println("Привет", math.Pi, p)
+}
 
+
+func consoleInputOutput(){
 	var num0 float64
 	var num1 float64
 	fmt.Print("Enter the numbers:")
 	fmt.Scanf("%f %f",&num0, &num1)
 	fmt.Printf("Numbers %.5f %.5f", num0,  num1)
-
 }
